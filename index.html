@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Penguin Fashion</title>
-  <!-- Tailwind css -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- font awesome -->
   <script src="https://kit.fontawesome.com/d327365fff.js" crossorigin="anonymous"></script>
   <script>
     tailwind.config = {
@@ -16,7 +13,7 @@
         extend: {
           colors: {
             clifford: "#da373d",
-            btn: '#A4BC46',
+            lightGreen: '#A4BC46',
           },
         },
       },
@@ -24,22 +21,25 @@
   </script>
 </head>
 
+
 <body>
-  <!-- Header -->
-  <header class="bg-[#FFFBF0] ">
-    <section class="container mx-auto sm:flex items-center justify-evenly pt-12 pb-12">
-      <div class="space-y-4">
+  <header class="sm:bg-red-500 md:bg-green-500">
+    <section class="container mx-auto sm:flex items-center justify-evenly py-12">
+      <div class="space-y-4 m-2">
         <h1 class="text-3xl sm:text-4xl uppercase font-bold">
           <span class="text-amber-400">Be the Penguins</span><br>
           <span>of Winter</span>
         </h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+        <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
           <span> <i class="fa-solid fa-cart-shopping"></i></span>
           <span>buy now</span>
         </button>
       </div>
-      <div> <img class="w-4/5 pt-5 sm:pt-0 sm:w-4/5" src="./images/model.png" alt=""> </div>
+
+      <div>
+        <img class="w-4/5 mx-auto pt-5 sm:pt-0 sm:w-4/5" src="./images/model.png" alt=""> 
+      </div>
     </section>
   </header>
 
@@ -51,46 +51,54 @@
         <div class="container mx-auto sm:grid gap-12 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           <!-- jacket 1 -->
           <div class="p-4 shadow-lg rounded-lg">
-            <div class="p-5 rounded-lg bg-slate-300"><img class="w-1/2 sm:w-3/4 block mx-auto"
-                src="./images/jacket-1.png" alt="jacket-1"></div>
+            <div class="p-4 rounded-lg bg-slate-300">
+              <img class="w-[70%] mx-auto" src="./images/jacket-1.png" alt="jacket-1">
+            </div>
+
             <div class="space-y-4">
               <h3 class="text-xl font-semibold">Yellow Coat Jacket</h3>
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.</p>
               <div class="flex items-center justify-between">
-                <h2 class="text-3xl text-yellow-500 font-semibold">$224</h2>
-                <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+                <h2 class="text-2xl text-yellow-500 font-semibold">$224</h2>
+                <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
                   <span> <i class="fa-solid fa-cart-shopping"></i></span>
                   <span>buy now</span>
                 </button>
               </div>
             </div>
           </div>
+
           <!-- jacket 2 -->
           <div class="p-4 shadow-lg rounded-lg">
-            <div class="p-5 rounded-lg bg-slate-300"><img class="w-1/2 sm:w-3/4 block mx-auto"
-                src="./images/jacket-2.png" alt="jacket-1"></div>
+            <div class="p-4 rounded-lg bg-slate-300">
+              <img class="w-[70%] mx-auto" src="./images/jacket-1.png" alt="jacket-1">
+            </div>
+
             <div class="space-y-4">
               <h3 class="text-xl font-semibold">Yellow Coat Jacket</h3>
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.</p>
               <div class="flex items-center justify-between">
-                <h2 class="text-3xl text-yellow-500 font-semibold">$224</h2>
-                <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+                <h2 class="text-2xl text-yellow-500 font-semibold">$224</h2>
+                <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
                   <span> <i class="fa-solid fa-cart-shopping"></i></span>
                   <span>buy now</span>
                 </button>
               </div>
             </div>
           </div>
+
           <!-- jacket 3 -->
           <div class="p-4 shadow-lg rounded-lg">
-            <div class="p-5 rounded-lg bg-slate-300"><img class="w-1/2 sm:w-3/4 block mx-auto"
-                src="./images/jacket-3.png" alt="jacket-1"></div>
+            <div class="p-4 rounded-lg bg-slate-300">
+              <img class="w-[70%] mx-auto" src="./images/jacket-1.png" alt="jacket-1">
+            </div>
+
             <div class="space-y-4">
               <h3 class="text-xl font-semibold">Yellow Coat Jacket</h3>
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.</p>
               <div class="flex items-center justify-between">
-                <h2 class="text-3xl text-yellow-500 font-semibold">$224</h2>
-                <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+                <h2 class="text-2xl text-yellow-500 font-semibold">$224</h2>
+                <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
                   <span> <i class="fa-solid fa-cart-shopping"></i></span>
                   <span>buy now</span>
                 </button>
@@ -108,52 +116,61 @@
         <div class="container mx-auto sm:grid gap-12 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           <!-- jacket 1 -->
           <div class="p-4 shadow-lg rounded-lg">
-            <div class="p-5 rounded-lg bg-slate-300"><img class="w-1/2 sm:w-3/4 block mx-auto"
-                src="./images/jacket-4.png" alt="jacket-1"></div>
+            <div class="p-4 rounded-lg bg-slate-300">
+              <img class="w-[70%] mx-auto" src="./images/jacket-1.png" alt="jacket-1">
+            </div>
+
             <div class="space-y-4">
               <h3 class="text-xl font-semibold">Yellow Coat Jacket</h3>
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.</p>
               <div class="flex items-center justify-between">
-                <h2 class="text-3xl text-yellow-500 font-semibold">$224</h2>
-                <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+                <h2 class="text-2xl text-yellow-500 font-semibold">$224</h2>
+                <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
                   <span> <i class="fa-solid fa-cart-shopping"></i></span>
                   <span>buy now</span>
                 </button>
               </div>
             </div>
           </div>
+
           <!-- jacket 2 -->
           <div class="p-4 shadow-lg rounded-lg">
-            <div class="p-5 rounded-lg bg-slate-300"><img class="w-1/2 sm:w-3/4 block mx-auto"
-                src="./images/jacket-5.png" alt="jacket-1"></div>
+            <div class="p-4 rounded-lg bg-slate-300">
+              <img class="w-[70%] mx-auto" src="./images/jacket-1.png" alt="jacket-1">
+            </div>
+
             <div class="space-y-4">
               <h3 class="text-xl font-semibold">Yellow Coat Jacket</h3>
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.</p>
               <div class="flex items-center justify-between">
-                <h2 class="text-3xl text-yellow-500 font-semibold">$224</h2>
-                <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+                <h2 class="text-2xl text-yellow-500 font-semibold">$224</h2>
+                <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
                   <span> <i class="fa-solid fa-cart-shopping"></i></span>
                   <span>buy now</span>
                 </button>
               </div>
             </div>
           </div>
+
           <!-- jacket 3 -->
           <div class="p-4 shadow-lg rounded-lg">
-            <div class="p-5 rounded-lg bg-slate-300"><img class="w-1/2 sm:w-3/4 block mx-auto"
-                src="./images/jacket-6.png" alt="jacket-1"></div>
+            <div class="p-4 rounded-lg bg-slate-300">
+              <img class="w-[70%] mx-auto" src="./images/jacket-1.png" alt="jacket-1">
+            </div>
+
             <div class="space-y-4">
               <h3 class="text-xl font-semibold">Yellow Coat Jacket</h3>
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.</p>
               <div class="flex items-center justify-between">
-                <h2 class="text-3xl text-yellow-500 font-semibold">$224</h2>
-                <button class="uppercase bg-btn hover:bg-lime-700 text-white font-semibold py-2 px-4 rounded-lg">
+                <h2 class="text-2xl text-yellow-500 font-semibold">$224</h2>
+                <button class="bg-lightGreen hover:bg-lime-600 text-white rounded-lg px-3 py-2 uppercase font-semibold">
                   <span> <i class="fa-solid fa-cart-shopping"></i></span>
                   <span>buy now</span>
                 </button>
               </div>
             </div>
           </div>
+
         </div>
       </section>
     </section>
